@@ -1,0 +1,10 @@
+.foot{
+  height: 10%;
+  background-color: rgb(26, 177, 119);
+  margin-top: 34%;
+}
+
+.facebook, .twitter, .linkedln, .git{
+  height: 2rem;
+  margin: 1%;
+}
