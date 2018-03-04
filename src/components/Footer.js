@@ -13,7 +13,7 @@ class Footer extends Component {
         <img className='twitter' src={twitter} alt='twitter'></img>
         <img className='linkedln' src={linkedln} alt='linkedln'></img>
         <img className='git' src={git} alt='git'></img>
-        <p>&#9400; LabCar technologies Inc.</p>
+        <p>&#9400; Randon-Box technologies Inc.</p>
       </div>
     );
   }
