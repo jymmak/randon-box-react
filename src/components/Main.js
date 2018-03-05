@@ -12,11 +12,11 @@ let randomColor = () => {
 }
 
 
-let randomTypography = () => {
-  let fonts = ['font-krona One', 'font-plaster', 'font-monoton', 'font-shrikhand', 'font-pacifico']
-  let index = Math.round(Math.random() * fonts.length);
-  let font = fonts[index];
-  return font;
+let fontFamily = () => {
+  let fonts = ['Mina', 'Karma', 'Indie Flower', 'Comfortaa', 'VT323', 'Anonymous Pro', 'Nanum Myeongjo', 'Krona One', 'Cutive Mono', 'Nanum Brush Script', 'Permanent Marker', 'Courgette', 'Tangerine', 'Handlee', 'Kalam', 'Rock Salt', 'Reenie Beanie'];
+  let fontFamily = fonts[Math.floor(Math.random() * fonts.length)];
+  return fontFamily;
+
 }
 
 
@@ -24,14 +24,14 @@ let randomTypography = () => {
 
 class Main extends Component {
   render() {
-    const colorsRandom = { backgroundColor: randomColor() };  
+    const styleText = fontFamily()
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Randon box React</h1>
+          <h1 className="App-title">Randon Box React</h1>
         </header>
         <div className="h40 box" style={{backgroundColor: randomColor()}} >
-          <h2 className={randomTypography()} style={{ color: randomColor() }}>Para ganar hay que poner toda la fuerza en movimiento.Vow Clausewitz</h2>
+          <h2 className={styleText}  style={{ color: randomColor() }}>Para ganar hay que poner toda la fuerza en movimiento.Vow Clausewitz</h2>
         </div>
       </div>
 
