@@ -1,7 +1,8 @@
 .foot{
   height: 10%;
-  background-color: rgb(26, 177, 119);
-  margin-top: 34%;
+  background-color: black;
+  margin-top: 15%;
+  color: white;
 }
 
 .facebook, .twitter, .linkedln, .git{
