@@ -1,9 +1,16 @@
-# Burguer Queen
+# Randon Box
 
 
 ## Descripción
 
 Crear un randon que cambie de color y tamaño de letra al refrescar la página.
+
+## Componentes
+La composiciópn la tenemos en App, son cuatro componentes header, main, aside y footer con sus respectivos estilos.
+
+![image](src/components/images/componentes.png)
+
+
 
 ##  Recursos utilizados
 
@@ -24,8 +31,7 @@ Crear un randon que cambie de color y tamaño de letra al refrescar la página.
 
 ## Producto
 
-![image](assets/images/.png)
-
+![image](src/components/images/readme.png)
 
 ## Licencia
 
